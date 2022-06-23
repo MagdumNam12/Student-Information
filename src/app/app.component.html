@@ -1,0 +1,21 @@
+<div class="container">  
+    
+  <h1> Student Information </h1>  
+    
+  <table class="table table-striped">  
+    <thead>  
+        <tr>  
+          <th>SName</th>  
+          <th>Mobileno</th>  
+          <th>Adress</th>   
+        </tr>  
+    </thead>  
+    <tbody>  
+      <tr *ngFor="let data of arr">  
+        <td>{{ data.SName }}</td>  
+        <td>{{ data.SMobileno }}</td>  
+        <td>{{ data.SAdress }}</td>   
+      </tr>  
+    </tbody>  
+  </table>  
+</div>  
